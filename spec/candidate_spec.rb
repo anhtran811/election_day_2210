@@ -36,3 +36,4 @@ RSpec.describe Candidate do
     diana.vote_for!
     expect(diana.votes).to eq(4)
   end
+end
